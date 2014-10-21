@@ -1,0 +1,34 @@
+{
+	"name": "jquery.lockScroll.js",
+	"title": "jQuery lockScroll",
+	"description": "Lock the scroll of an element.",
+	"keywords": [
+		"jquery",
+		"lock scroll"
+	],
+	"version": "0.1.0",
+	"author": {
+		"name": "Jonathan Cutrell",
+		"email": "jonathan@whiteboard.is",
+		"url": "https://jonathancutrell.com"
+	},
+	"maintainers": [
+		{
+			"name": "Jonathan Cutrell",
+			"email": "jonathan@whiteboard.is",
+			"url": "https://jonathancutrell.com"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://mit-license.org/"
+		}
+	],
+	"bugs": "https://github.com/whiteboard/jquery.lockScroll.js/issues",
+	"docs": "https://github.com/whiteboard/jquery.lockScroll.js#readme",
+	"download": "https://github.com/whiteboard/jquery.lockScroll.js/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.4.3"
+	}
+}
