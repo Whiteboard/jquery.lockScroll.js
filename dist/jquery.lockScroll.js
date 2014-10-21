@@ -14,9 +14,9 @@
 				'scroll-position': scrollPos,
 				'scroll-locked' : true,
 				'prev-overflow' : this.css('overflow')
-			})
-			.css('overflow', 'hidden')
-			.scrollTo(scrollPos[0], scrollPos[1]);
+			});
+			this.css('overflow', 'hidden');
+			this.scrollTo(scrollPos[0], scrollPos[1]);
 		};
 		$.fn.unlockScroll = function() {
 			var scrollPos = this.data('scroll-position');
