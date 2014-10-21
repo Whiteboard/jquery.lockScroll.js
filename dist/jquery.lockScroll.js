@@ -16,7 +16,7 @@
 				'prev-overflow' : this.css('overflow')
 			});
 			this.css('overflow', 'hidden');
-			this.scrollTo(scrollPos[0], scrollPos[1]);
+			this[0].scrollTo(scrollPos[0], scrollPos[1]);
 		};
 		$.fn.unlockScroll = function() {
 			var scrollPos = this.data('scroll-position');
