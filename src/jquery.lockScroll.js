@@ -8,13 +8,15 @@
 				'prev-overflow' : this.css('overflow')
 			});
 			this.css('overflow', 'hidden');
-			this[0].scrollTo(scrollPos[0], scrollPos[1]);
+			this.scrollTop(scrollPos[0]);
+			this.scrollLeft(scrollPos[1]);
 		};
 		$.fn.unlockScroll = function() {
 			var scrollPos = this.data('scroll-position');
 			this.data('scroll-locked', false);
 			this.css('overflow', this.data('prev-overflow'));
-			this.scrollTo(scrollPos[0], scrollPos[1]);
+			this.scrollTop(scrollPos[0]);
+			this.scrollLeft(scrollPos[1]);
 		};
 
 })( jQuery, window, document );
