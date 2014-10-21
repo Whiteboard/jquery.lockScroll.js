@@ -5,7 +5,7 @@
 			this.data({
 				'scroll-position': scrollPos,
 				'scroll-locked' : true,
-				'prev-overflow' : this.css('overflow')
+				'prev-overflow' : (this[0] === window) ? 'initial' : this.css('overflow')
 			});
 			this.css('overflow', 'hidden');
 			this.scrollTop(scrollPos[0]);
